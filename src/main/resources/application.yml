@@ -1,0 +1,17 @@
+spring:
+  # JDBC properties
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jwt_security
+    username: hoanglam
+    password: hoanglam
+
+  application:
+    name=jwt-security:
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
